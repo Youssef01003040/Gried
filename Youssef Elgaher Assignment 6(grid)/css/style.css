@@ -1,0 +1,628 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Arvo", serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.gallery_grid
+{
+    display: grid;
+    grid-template-columns: repeat(4 , 25%);
+    grid-template-areas: 
+    "card_1 card_1 card_2 card_2 "
+    "card_1 card_1 card_2 card_2 "
+    "card_3 card_4 card_4 card_5 "
+    "card_3 card_4 card_4 card_5 "
+    "card_6 card_7 card_7 card_5 "
+    "card_6 card_7 card_7 card_5 "
+    "card_8 card_9 card_10 card_10 "
+    ;
+}
+
+/*!=========== card_1 style start ==========!*/
+
+.card_1
+{
+    background-color: #FFFFFF;
+    grid-area: card_1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_1_text
+{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.card_1_text h4
+{
+    color:#9FA3A7;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 0.625rem;
+    letter-spacing: 0.0938rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.card_1_text h2
+{
+    color:#333333;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arvo, sans-serif;
+}
+
+.card_1_text p 
+{
+    color:#9FA3A7;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-top: 0.9375rem;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.card_1_photo
+{
+    width:35% ;
+    padding-top: 3.125rem;
+    filter: drop-shadow(0 0 0.625rem 0.6);
+}
+
+.card_1_photo img
+{
+    width: 100%;
+    display: block;
+}
+/*!=========== card_1 style end ==========!*/
+
+/*!=========== card_2 style start ==========!*/
+.card_2
+{
+    background-color: #F7F8F9;
+    grid-area: card_2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding:3.125rem;
+}
+
+.card_2_text h4
+{
+    color:#9FA3A7;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 0.9375rem;
+    letter-spacing: 0.0938rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.card_2_text h2
+{
+    color:#333333;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Arvo, sans-serif;
+}
+
+.card_2_text a
+{
+    color:#27b9c2;
+    font-size: 0.875rem;
+    display: inline-block;
+    padding-top: 0.9375rem;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: underline;
+}
+/*!=========== card_2 style end ==========!*/
+
+/*!=========== card_3 style start ==========!*/
+.card_3
+{
+    background-color: #F05638;
+    grid-area: card_3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem 1.875rem;
+    text-align: center;
+}
+
+.card_3 .card_3_image 
+{
+    width: 100%;
+    
+}
+
+.card_3 .card_3_image img 
+{
+    width: 100%;
+    display: block;
+}
+
+.card_3_text h2 
+{
+    color:#fffbfb;
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding: 0.9375rem 0rem;
+    font-family: Arvo, sans-serif;
+}
+
+.card_3_text a 
+{
+    color:#ffc80a;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0938rem;
+    font-family: "Open Sans", sans-serif;
+    
+}
+/*!=========== card_3 style end ==========!*/
+
+/*!=========== card_4 style start ==========!*/
+.card_4
+{
+    background-color: #FFFFFF;
+    grid-area: card_4;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.75rem;
+
+}
+
+.card_4 .col_1
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card_4 .col_1 h4 
+{
+    color:#9FA3A7;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 0.9375rem;
+    letter-spacing: 0.0938rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.card_4 .col_1 h2 
+{
+    color:#333333;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 1.875rem;
+    font-family: Arvo, sans-serif;
+}
+
+.col_1_image
+{
+    width: 60%;
+}
+
+.col_1_image img
+{
+    width: 100%;
+    display: block;
+}
+
+.card_4 .col_2
+{
+    width: 40%;
+}
+
+.card_4 .col_2 p 
+{
+    color:#9fa3a7;
+    font-size: 0.875rem;
+    padding-bottom: 1.25rem;
+    font-weight: 400;
+    line-height: 1.9;
+    font-family: "Open Sans", sans-serif; 
+}
+
+.card_4 .col_2 a 
+{
+    display: inline-block;
+    color:#27b9c2;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    font-family: "Open Sans", sans-serif;
+}
+/*!=========== card_4 style end ==========!*/
+
+/*!=========== card_5 style start ==========!*/
+.card_5
+{
+    background-color: #8F76BC;
+    grid-area: card_5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2.5rem;
+    padding: 30px 0px;
+}
+
+.card_5_image 
+{
+    background-color: #8166B0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.75rem 0rem;
+    border-radius: 50%;
+}
+
+.card_5 .details 
+{
+    background-color: #8B72B6;
+    position: absolute;
+    top:1.25rem;
+    left:37%;
+    padding:0.3125rem 0.9375rem;
+    border-radius: 1.25rem;
+}
+
+.card_5 .details p 
+{
+    color:#ffffff;
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.0938rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card_5 .details p span 
+{
+    color:#FFC80A;
+    font-size: 0.75rem;
+    padding-right: 0.3125rem;
+}
+
+.card_5_image .image 
+{
+    width: 60%;
+}
+
+.card_5_image .image img 
+{
+    width: 100%;
+    display: block;
+}
+
+.card_5_image h4 
+{
+    color:#ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+.card_5_text
+{
+    width: 60%;
+}
+
+.card_5_text h2 
+{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Arvo, sans-serif;
+}
+
+.card_5_text p 
+{
+    color:#fff;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 0.9375rem;
+    padding-bottom: 1.5625rem;
+    line-height:1.8;
+}
+
+.card_5_text a 
+{
+    color:#000000;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFC80A;
+    display: inline-block;
+    padding: 0.9375rem 1.875rem;
+    border-radius: 1.5625rem;
+}
+
+/*!=========== card_5 style end ==========!*/
+
+/*!=========== card_6 style start ==========!*/
+.card_6
+{
+    background-color: #F7F8F9;
+    grid-area: card_6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.125rem 1.875rem;
+    text-align: center;
+    
+}
+
+.card_6 .card_6_image 
+{
+    width: 75%;  
+}
+
+.card_6 .card_6_image img 
+{
+    width: 100%;
+    display: block;
+}
+
+.card_6_text h2 
+{
+    font-size: 1.375rem;
+    font-weight: 400;
+    padding: 0.9375rem 0rem;
+    font-family: Arvo, sans-serif;
+}
+
+.card_6_text a 
+{
+    color:#27b9c2;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0938rem;
+    display: inline-block;
+    padding-top: 1.5625rem;
+    padding-bottom: 0.625rem;
+    
+}
+/*!=========== card_6 style end ==========!*/
+
+/*!=========== card_7 style start ==========!*/
+.card_7
+{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom;
+    background-color: #93B6B7;
+    grid-area: card_7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_7 .details 
+{
+    background-color: #FA684F;
+    position: absolute;
+    top:1.25rem;
+    left:1.25rem;
+    padding:0.3125rem 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.card_7 .details p 
+{
+    color:#ffffff;
+    font-size: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 0.0938rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card_7 .text 
+{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.card_7 .text h2 
+{
+    color:#ffffff;
+    font-size: 1.375rem;
+    font-weight: 700;
+    font-family: Arvo, sans-serif;
+}
+
+.card_7_image 
+{
+    width: 65%;
+}
+
+.card_7_image img 
+{
+    width: 100%;
+    display: block;
+}
+/*!=========== card_7 style end ==========!*/
+
+/*!=========== card_8 style start ==========!*/
+
+.card_8
+{
+    background-color: #38D5F4;
+    grid-area: card_8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_8_content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #35CFED;
+    padding: 3.125rem 0rem;
+    width: 60%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card_8_content img
+{
+    width: 2.5rem;
+}
+
+.card_8_content h2
+{
+    color:#fff;
+    font-size: 1.375rem;
+    font-weight: 400;
+    padding-top: 0.9375rem;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Arvo, sans-serif;
+}
+/*!=========== card_8 style end ==========!*/
+
+/*!=========== card_9 style start ==========!*/
+.card_9
+{
+    background-color: #F7F8F9;
+    grid-area: card_9;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_9 .details 
+{
+    background-color: #7BC424;
+    position: absolute;
+    top:2.5rem;
+    left:38%;
+    padding:0.3125rem 0.9375rem;
+    border-radius: 0.3125rem;
+}
+
+.card_9 .details p 
+{
+    color:#ffffff;
+    font-size: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 0.0938rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card_9 .text h2 
+{
+    color:#333333;
+    font-size: 1.375rem;
+    font-weight: 400;
+    font-family: Arvo, sans-serif;
+}
+/*!=========== card_9 style end ==========!*/
+
+/*!=========== card_10 style start ==========!*/
+.card_10
+{
+    background-color: #2C2C2C;
+    grid-area: card_10;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.card_10_image 
+{
+    width: 30%;
+}
+
+.card_10_image img 
+{
+    width: 100%;
+    display: block;
+}
+
+.card_10 .text 
+{
+    width: 30%;
+}
+.card_10 .text h2 
+{
+    color:#ffffff;
+    font-size: 1.375rem;
+    font-weight: 400;
+    font-family: Arvo, sans-serif;
+}
+
+
+/*!=========== card_10 style end ==========!*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

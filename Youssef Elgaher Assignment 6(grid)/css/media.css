@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease-in;
+}
+
+@media (max-width: 1280px)
+{
+
+    /*!================= card_4 style =========!*/
+    
+    .col_1_image
+    {
+        width: 100%;
+    }
+
+    .col_1_image img
+    {
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:1024px)
+{
+    html 
+    {
+    font-size: 14px;
+    }
+
+    .gallery_grid
+    {
+    display: grid;
+    grid-template-columns: repeat(4 , 25%);
+    grid-template-areas: 
+    "card_2 card_2 card_2 card_2 "
+    "card_2 card_2 card_2 card_2 "
+
+    "card_1 card_1 card_1 card_1"
+    "card_1 card_1 card_1 card_1 "
+
+    "card_3 card_3 card_6 card_6 "
+    "card_3 card_3 card_6 card_6 "
+
+
+    "card_4 card_4 card_4 card_4 "
+    "card_4 card_4 card_4 card_4 "
+
+    "card_8 card_8 card_5 card_5 "
+    "card_8 card_8 card_5 card_5 "
+    "card_7 card_7 card_5 card_5 "
+    "card_7 card_7 card_5 card_5 "
+
+    "card_9 card_9 card_9 card_9 "
+    "card_10 card_10 card_10 card_10 "
+    ;
+    }
+    /*!=============== card_1 style ===========!*/
+    .card_1_photo
+    {
+        width:20% ;
+        padding-top: 3rem;
+    }
+
+
+    /*!================= card_4 style =========!*/
+    
+    .col_1_image
+     {
+         width: 60%;
+         
+         
+     }
+ 
+     .col_1_image img
+     {
+         width: 100%;
+         
+     }
+
+    /*!========== card_5 style =========!*/
+
+    .card_5_image 
+    {
+        width: 75%;
+        background-color: #8166B0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3.75rem 0rem;
+        border-radius: 50%;
+    }
+
+    /*!========== card_7 style =========!*/
+        .card_7 .text 
+    {
+        text-align: center;
+        margin-top: 2.5rem;
+        padding-top: 40px;
+    }
+
+    .card_7 .text h2 
+    {
+        color:#ffffff;
+        font-size: 1.375rem;
+        font-weight: 700;
+        padding-top: 20px;
+        font-family: Arvo, sans-serif;
+    }
+
+    .card_7_image 
+    {
+        width: 70%;
+    }
+
+    /*!========== card_9 style =========!*/
+    .card_9 .details 
+    {
+    background-color: #7BC424;
+    position: absolute;
+    top:10px;
+    left:46%;
+    padding:0.3125rem 0.9375rem;
+    border-radius: 0.3125rem;
+    }
+
+    .card_9 .text 
+{
+    margin: 40px 0px;
+}
+
+.card_9 .text h2 
+{
+    color:#333333;
+    font-size: 1.375rem;
+    font-weight: 400;
+    font-family: Arvo, sans-serif;
+}
+
+
+    /*!========== card_10 style =========!*/
+
+    .card_10_image 
+    {
+        width: 15%;
+    }
+
+    .card_10_image img 
+    {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+@media (max-width:640px)
+{
+    .gallery_grid
+    {
+    display: grid;
+    grid-template-columns: repeat(4 , 25%);
+    grid-template-areas: 
+    "card_2 card_2 card_2 card_2 "
+    "card_2 card_2 card_2 card_2 "
+
+    "card_1 card_1 card_1 card_1"
+    "card_1 card_1 card_1 card_1 "
+
+    "card_3 card_3 card_6 card_6 "
+    "card_3 card_3 card_6 card_6 "
+
+
+    "card_4 card_4 card_4 card_4 "
+    "card_4 card_4 card_4 card_4 "
+
+    "card_8 card_8 card_5 card_5 "
+    "card_8 card_8 card_5 card_5 "
+    "card_7 card_7 card_5 card_5 "
+    "card_7 card_7 card_5 card_5 "
+
+    "card_9 card_9 card_9 card_9 "
+    "card_10 card_10 card_10 card_10 "
+    ;
+    }
+
+    /*!=============== card_1 style ===========!*/
+    .card_1_photo
+    {
+        width:45% ;
+        padding-top: 3rem;
+    }
+
+    
+
+    /*!================= card_4 style =========!*/
+    
+    .col_1_image
+    {
+        width: 60%;
+    }
+
+    .col_1_image img
+    {
+        width: 100%;
+        
+    }
+
+    /*!========== card_5 style =========!*/
+
+    .card_5  
+    {
+        overflow: hidden;
+    }
+
+    .card_5_image 
+    {
+        width: 120%;
+    }
+
+    .card_8_content
+    {
+        padding: 4.125rem 0rem;
+        width: 100%;
+    }
+
+    /*!========== card_7 style =========!*/
+        .card_7 .text 
+    {
+        text-align: center;
+        margin-top: 2.5rem;
+        padding-top: 40px;
+    }
+
+    .card_7 .text h2 
+    {
+        color:#ffffff;
+        font-size: 1.375rem;
+        font-weight: 700;
+        padding-top: 20px;
+        font-family: Arvo, sans-serif;
+    }
+
+    .card_7_image 
+    {
+        width: 70%;
+    }
+
+    /*!========== card_9 style =========!*/
+    .card_9 .details 
+    {
+        background-color: #7BC424;
+        position: absolute;
+        top:10px;
+        left:43%;
+        padding:0.3125rem 0.9375rem;
+        border-radius: 0.3125rem;
+    }
+
+    /*!========== card_10 style =========!*/
+
+    .card_10_image 
+    {
+        width: 30%;
+    }
+    .card_10_image img 
+    {
+        width: 100%;
+        display: block;
+    }
+
+    
+
+}
